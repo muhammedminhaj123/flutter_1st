@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:project_1/appbar.dart';
-import 'package:project_1/sized.dart';
+import 'package:project_1/container/beartask1.dart';
+import 'package:project_1/container/bussinesscard.dart';
+import 'package:project_1/container/coloredbox.dart';
+import 'package:project_1/container/richapp.dart';
+import 'package:project_1/container/task1.dart';
+import 'package:project_1/container/task2.dart';
+import 'package:project_1/container/container_task.dart';
+import 'package:project_1/container/sized.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +23,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: sizedscrean(),
+      debugShowCheckedModeBanner: false,
+      home: Loginscreanbear(),
     );
   }
 }
