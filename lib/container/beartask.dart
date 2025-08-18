@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:project_1/container/beartask1.dart';
 
 class Loginscrean extends StatefulWidget {
   const Loginscrean({super.key});
@@ -13,7 +14,19 @@ class _LoginscreanState extends State<Loginscrean> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(backgroundColor: Colors.brown.shade100),
       backgroundColor: Colors.brown.shade100,
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => Loginscreanbear()),
+          );
+        },
+        backgroundColor: Colors.brown,
+        child: Icon(Icons.arrow_forward, color: Colors.white),
+      ),
+
       body: Column(
         children: [
           SizedBox(height: 60),

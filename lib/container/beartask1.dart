@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project_1/container/dashbord.dart';
 
 class Loginscreanbear extends StatefulWidget {
   const Loginscreanbear({super.key});
@@ -13,7 +14,18 @@ class _LoginscreanbearState extends State<Loginscreanbear> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(backgroundColor: Colors.brown.shade100),
       backgroundColor: Colors.brown.shade100,
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => Dashbord()),
+          );
+        },
+        backgroundColor: Colors.brown,
+        child: Icon(Icons.forward, color: Colors.white),
+      ),
       body: Column(
         children: [
           SizedBox(height: 60),
