@@ -4,16 +4,20 @@ import 'package:project_1/container/beartask.dart';
 import 'package:project_1/container/beartask1.dart';
 import 'package:project_1/container/bussinesscard.dart';
 import 'package:project_1/container/coloredbox.dart';
+import 'package:project_1/container/courseapp.dart';
+import 'package:project_1/container/coursepage.dart';
 import 'package:project_1/container/dashbord.dart';
 import 'package:project_1/container/dashbord1.dart';
 import 'package:project_1/container/listview.dart';
 import 'package:project_1/container/meesho.dart';
+import 'package:project_1/container/meeshogridview.dart';
 
 import 'package:project_1/container/richapp.dart';
 import 'package:project_1/container/task1.dart';
 import 'package:project_1/container/task2.dart';
 import 'package:project_1/container/container_task.dart';
 import 'package:project_1/container/sized.dart';
+import 'package:project_1/container/task5.dart';
 import 'package:project_1/container/whatsApp.dart';
 import 'package:project_1/container/xhylophone.dart';
 
@@ -33,7 +37,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       debugShowCheckedModeBanner: false,
-      home: ShoppingAppmeesho(),
+      home: Coursepage(),
     );
   }
 }
