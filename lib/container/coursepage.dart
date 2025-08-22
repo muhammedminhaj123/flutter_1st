@@ -95,7 +95,7 @@ class _CoursepageState extends State<Coursepage> {
                       height: 50,
                       width: 150,
                       decoration: BoxDecoration(
-                        color: Colors.deepPurple,
+                        color: Colors.deepPurple.shade200,
                         borderRadius: BorderRadius.circular(10),
                       ),
                       child: Center(

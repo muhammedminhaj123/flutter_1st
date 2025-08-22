@@ -15,7 +15,7 @@ class _CourseapphomeState extends State<Courseapphome> {
       body: Column(
         children: [
           Container(
-            height: MediaQuery.sizeOf(context).height * .65,
+            height: MediaQuery.sizeOf(context).height * 0.65,
             width: double.infinity,
             decoration: BoxDecoration(
               color: Colors.purple,
