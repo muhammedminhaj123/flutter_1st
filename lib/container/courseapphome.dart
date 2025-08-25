@@ -38,10 +38,10 @@ class _CourseapphomeState extends State<Courseapphome> {
           ),
           SizedBox(height: 10),
           Text(
-            "Learning with pleasure with Dear",
+            "Learning with pleasure with Dear\nproggramer,wherever you are",
             style: TextStyle(fontSize: 18),
           ),
-          Text("proggramer,wherever you are.", style: TextStyle(fontSize: 18)),
+
           SizedBox(height: 50),
           InkWell(
             onTap: () {
